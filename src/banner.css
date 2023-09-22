@@ -1,0 +1,41 @@
+.Banner{
+    background-image: url("./AssignmentImages/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:"700px"!important;
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+.BannerText{
+    height: 600px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freshLook{
+font-family: Syne;
+font-size: 135px;
+font-weight: 800;
+line-height: 103px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+@media screen and (max-width:700px){
+    .BannerText{
+        height:200px;
+        
+    }
+    .freshLook{
+        font-family: Syne;
+font-size: 55px;
+font-weight: 800;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    
+}

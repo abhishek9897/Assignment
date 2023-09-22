@@ -1,0 +1,42 @@
+.footer{
+    background-image: url("./18591063.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    color: white;
+    width: 100%;
+    
+
+}
+.GetInTouch{
+font-family: Syne;
+font-size: 135px;
+font-weight: 800;
+line-height: 103px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.main{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:700px) {
+    
+    .newsLetterHeading{
+        text-align: center;
+        width: 100%;
+    }
+    .GetInTouch{
+        font-family: Syne;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
